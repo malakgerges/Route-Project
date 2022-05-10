@@ -1,0 +1,55 @@
+/* START MAIN STYLING */
+body {
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+:root {
+    --main-text-color: #1e1e1e;
+    --blood-color: #D81E05;
+    --grey: #494e51;
+    --light-grey: #ccc;
+}
+
+.main-text-color {
+    color: var(--main-text-color);
+}
+
+.text-blood-color {
+    color: var(--blood-color);
+}
+
+/* START MAIN BUTTON */
+.btn-grey {
+    background-color: var(--grey);
+    color: var(--light-grey);
+    transition: all 0.3s;
+}
+
+.btn-grey:hover {
+    background-color: var(--blood-color);
+    color: var(--main-text-color);
+}
+
+/* END MAIN BUTTON */
+
+/* END MAIN STYLING */
+
+/* START HEADER STYLING */
+header nav ul a {
+    transition: all 0.3s !important;
+}
+
+header nav ul a:hover {
+    color: var(--blood-color) !important;
+}
+
+header form input:focus {
+    border-color: var(--blood-color) !important;
+}
+
+header form input:checked {
+    background-color: var(--blood-color) !important;
+    border-color: var(--blood-color) !important;
+}
+
+/* END HEADER STYLING */

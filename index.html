@@ -16,6 +16,65 @@
 </head>
 
 <body>
+    <!--------------------------------------------------  HEADER SECTION  -------------------------------------------------->
+    <header class="vh-100 bg-dark bg-opacity-50 d-flex justify-content-center align-items-center">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark bg-opacity-75 position-fixed top-0 start-0 end-0">
+            <div class="container">
+                <a class="navbar-brand" href="#"><i class="fa-solid fa-droplet text-blood-color"></i> Blood Donation</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">About US</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Contact US</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <section class="container row justify-content-center align-items-center">
+            <div class="col-md-10 col-xl-8 p-0 rounded-3 bg-dark bg-opacity-75">
+                <h3 class="text-center p-3 m-0 text-blood-color">Sign IN</h3>
+                <div class="p-5 rounded-3 bg-light">
+                    <form>
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label main-text-color">Email
+                                address:</label>
+                            <input name="user-acc" type="email" class="form-control shadow-none"
+                                id="exampleFormControlInput1" placeholder="name@example.com">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label main-text-color">Password:</label>
+                            <input name="user-pass" type="password" class="form-control shadow-none"
+                                id="exampleFormControlInput1" placeholder="********">
+                        </div>
+                        <div class="form-check form-switch">
+                            <input class="form-check-input shadow-none" type="checkbox" role="switch"
+                                id="flexSwitchCheckChecked">
+                            <label class="form-check-label main-text-color" for="flexSwitchCheckChecked">Remember
+                                Me</label>
+                        </div>
+                        <div class="text-center my-4">
+                            <button type="submit" class="btn btn-grey">Login</button>
+                            <a href="#" class="btn btn-grey">Forgotten your data?</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </header>
 
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/main.js"></script>
