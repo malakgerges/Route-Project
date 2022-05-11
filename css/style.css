@@ -53,3 +53,9 @@ header form input:checked {
 }
 
 /* END HEADER STYLING */
+
+/* About CSS start */
+#about h2{
+    color: var(--blood-color);
+}
+/* About css end */
